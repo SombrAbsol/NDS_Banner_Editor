@@ -20,7 +20,7 @@
 extern QTranslator *translator;
 extern bool translationLoaded;
 
-static const char* NameForTranslation[] = { "en", "ja", "pt" };
+static const char* NameForTranslation[] = { "en", "ja", "pt", "fr" };
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -412,6 +412,11 @@ void MainWindow::on_actionJapanese_triggered()
 void MainWindow::on_actionPortugu_s_triggered()
 {
     changeLanguage(2);
+}
+
+void MainWindow::on_actionFrench_triggered()
+{
+    changeLanguage(3);
 }
 
 /* ======== ICON/GRAPHICS GROUP ======== */

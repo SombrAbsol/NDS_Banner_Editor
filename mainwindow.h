@@ -87,6 +87,7 @@ private slots:
     void on_actionEnglish_triggered();
     void on_actionJapanese_triggered();
     void on_actionPortugu_s_triggered();
+    void on_actionFrench_triggered();
 
 private:
     Ui::MainWindow *ui;

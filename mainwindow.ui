@@ -387,6 +387,7 @@
     <addaction name="actionEnglish"/>
     <addaction name="actionJapanese"/>
     <addaction name="actionPortugu_s"/>
+    <addaction name="actionFrench"/>
    </widget>
    <addaction name="menuFile"/>
    <addaction name="menuExtra"/>
@@ -464,6 +465,11 @@
   <action name="actionPortugu_s">
    <property name="text">
     <string notr="true">Português</string>
+   </property>
+  </action>
+  <action name="actionFrench">
+   <property name="text">
+    <string notr="true">Français</string>
    </property>
   </action>
  </widget>
